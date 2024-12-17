@@ -14,3 +14,15 @@ NmapScanScript is a simple and versatile bash script for performing network scan
 1. Clone the repository:
    ```bash
    git clone https://github.com/matteosalis04/NmapScanScript.git
+
+## Example Execution
+   ```bash
+   Parameters (tcp, udp, all, vuln(script)): tcp
+   Target: 192.168.1.1
+   Scan the 192.168.1.1....
+   ####################
+   Scan Completed
+   ####################
+
+## Requirements
+   - **nmap** must be installed on the system.
