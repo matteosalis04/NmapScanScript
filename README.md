@@ -7,7 +7,7 @@ NmapScanScript is a simple and versatile bash script for performing network scan
 - **TCP Scan**: Performs a TCP scan with service version detection.
 - **UDP Scan**: Performs a UDP scan with service detection.
 - **Full Scan**: Performs a scan of all ports.
-- **Vulnerability Scan**: Performs a vulnerability scan using `nmap` scripts.
+- **Vulnerability Scan**: Performs a vulnerability scan using `vuln` scripts.
 
 ## Usage
 
