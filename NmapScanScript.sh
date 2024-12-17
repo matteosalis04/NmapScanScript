@@ -23,7 +23,7 @@ partcp="-sS -sV -Pn"
 parudp="-sn -PS -Pn"
 script="-O --script vuln"
 	
-read -p "Parametri(tcp, udp, all, vuln(script)): " parametro
+read -p "Parameters(tcp, udp, all, vuln(script)): " parametro
 
 read -p "Target: " target
 
@@ -43,13 +43,13 @@ elif [[ "$parametro" == "vuln" ]]; then
     comando="nmap $script $target"
     $comando > output.txt
 else
-    echo "Parametro non specificato!"
+    echo "Parameters not valid!"
     exit
 fi
 
 
 echo "####################"
-echo "Scansione Completata"
+echo "Scan Complete"
 echo "####################"
 
 
