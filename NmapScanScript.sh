@@ -4,7 +4,7 @@
 #############################
 ##############################
 #############################
-###### version.0.1.0 ########
+###### version.0.1.1 ########
 ##############################
 
 # Banner principale
@@ -20,7 +20,7 @@ EOF
 
 
 partcp="-sS -sV -Pn"
-parudp="-sn -PS -Pn"
+parudp="-sU -Pn"
 script="-O --script vuln"
 	
 read -p "Parameters(tcp, udp, all, vuln(script)): " parametro
